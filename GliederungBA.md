@@ -12,61 +12,61 @@
 # Ziel der Arbeit
 	Ziel ist es einen Weg zu finden, mit dem man auch in Zukunft Platformen auf ihre Eignung für Android Kernel Fuzzing überprüfen kann.
 # Grundlagen
-	## ARM Architektur 
+## ARM Architektur 
 	Was macht ARM aus und warum wird es für Android verwendet?
-	## Linux
+## Linux
 	Was macht Linux aus und warum ist Android darauf aufgebaut?
-	## Android
+## Android
 	Was unterscheidet Android von Linux, vor allem was den Kernel angeht?
 	Was sind für Fuzzing wichtige Eigenschaften?
-	## Device vs. VM
+## Device vs. VM
 	Was ist der Unterschied, vor allem auf Fuzzing bezogen?
-	## Programmanalyse 
+## Programmanalyse 
 	Welche Arten gibt es und wie eignen sie sich für Kernel analyse?
-	## Dynamische Programmanalyse 
+## Dynamische Programmanalyse 
 	Was ist das und wie muss man ein Programm zur analyse vorbereiten? 
 	Wie verhält sich das, wenn man den Kernel untersucht?
-	## Software Sicherheit
+## Software Sicherheit
 	Was kann einen Kernel unsicher machen und was hat das für Folgen? Beispiel?
-	## Fuzzing
+## Fuzzing
 	Was ist Fuzzing? Wie funktioniert es und was ist besonders, 
 	wenn man einenn Kernel fuzzen möchte? Welchen Fuzzer benutzen wir 
 	und was macht diesen besonders?
-	## Benchmarking 
+## Benchmarking 
 	Welche Arten gibt es,welche eignet sich in diesem Fall und warum?
-	## Qualitätsmetriken 
+## Qualitätsmetriken 
 	Welche Arten gibt es? Was will man in diesem Fall messen 
 	und welche Aussagekraft erwartet man?
-	## Android Kernel Fuzzing
+## Android Kernel Fuzzing
 	Wie fügen sich die genannten Teile zu einem Ganzen zusammen 
 	und was für Besonderheiten ergeben sich?
 # Umsetzung
-	## Die Platformen
+## Die Platformen
 	Welche Plattformen werden berücksichtigt und warum? 
-	## Die Android Varianten
+## Die Android Varianten
 	Welche Varianten wurden genutzt und warum? 
-	## Custom Android bauen
+## Custom Android bauen
 	Was wurde gebaut und warum? Wie lief der Prozess ab, was gab es für Schwierigkeiten und Lösungen?
-	## Qualitätsmetriken erarbeiten
+## Qualitätsmetriken erarbeiten
 	Wie wurde vorgegangen und warum? Was soll die Metrik aussagen? Die Metrik wird beschrieben. 
-	## Metrik auf Umgebungen anwenden
+## Metrik auf Umgebungen anwenden
 	Für alle Platformen mit allen Android Varianten wird einzeln das Metrik Rrgebnis beschrieben.
-	## Ergebnis der Umgebungsvergleiches
+## Ergebnis der Umgebungsvergleiches
 	Wer ist der beste und was bedeutet das für Fuzzing?
 # Evatuation
-	## Kernel Challenges erstellen 
+## Kernel Challenges erstellen 
 	Was sind diese Challenges? Was sollen sie aussagen? Wie erstellt man diese?
-	## Testweise Fuzzing durchführen 
+## Testweise Fuzzing durchführen 
 	Den ganzen Prozess beschreiben. Welcher Fuzzer wird benutzt 
 	und wie benutzt man ihn in unserem Fall? Was wird gemessen und wie?
-	## Metrikwerte mit Fuzzing-Realität vergleichen 
+## Metrikwerte mit Fuzzing-Realität vergleichen 
 	Für jede Platform den Metrikwert mit dem Fuzzingtest vergleichen.
-	## Interpretation und Fazit
+## Interpretation und Fazit
 	Ist die Metrik gut? Was wäre besser? was kann man tun?
-#Related Work
-	## Allgemeiner Forschungsstand
+# Related Work
+## Allgemeiner Forschungsstand
 	Wird Fuzzing auf dem Android Kernel schon gemacht, wenn ja wie? 
-	## Einzelne Projekte
+## Einzelne Projekte
 	Beispiele
 # Future Work
 	Was wurde nicht gemacht und wie könnte das moch erreicht werden?
